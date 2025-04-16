@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+*.log
+.vs/
+.vscode/
+*.db
+*.sqlite
+Migrations/
+*.nupkg
+*.snupkg
+.DS_Store
