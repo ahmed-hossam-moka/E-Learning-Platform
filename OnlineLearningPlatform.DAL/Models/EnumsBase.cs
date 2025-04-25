@@ -32,7 +32,8 @@
         public enum EarningsStatus
         {
             Pending,
-            Withdrawn
+            Withdrawn,
+            Completed
         }
 
         public enum WithdrawalStatus

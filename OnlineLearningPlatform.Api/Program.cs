@@ -19,12 +19,27 @@ namespace OnlineLearningPlatform.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // Database Context
             builder.Services.AddDbContext<PlatformContext>(option =>
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
-            builder.Services.AddScoped<IInstructorManager, InstructorManager>();
+
+
+            // Repositories (DAL)
             builder.Services.AddScoped<IInstructorRepository, InstructorRepository>();
+            builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+            builder.Services.AddScoped<IEarningsRepository, EarningsRepository>();
+            builder.Services.AddScoped<IWithdrawalRepository, WithdrawalRepository>();
+            builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+
+            // Managers (BLL)
+            builder.Services.AddScoped<IInstructorManager, InstructorManager>();
+            builder.Services.AddScoped<IReviewManager, ReviewManager>();
+            builder.Services.AddScoped<IEarningsManager, EarningsManager>();
+            builder.Services.AddScoped<IWithdrawalManager, WithdrawalManager>();
+            builder.Services.AddScoped<IAdminManager, AdminManager>();
 
             var app = builder.Build();
 
