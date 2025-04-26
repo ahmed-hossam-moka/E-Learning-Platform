@@ -1,0 +1,15 @@
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.deps.json
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.runtimeconfig.json
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.dll
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.pdb
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.csproj.AssemblyReference.cache
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.AssemblyInfoInputs.cache
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.AssemblyInfo.cs
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.sourcelink.json
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.dll
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\refint\OnlineLearningPlatform.DAL.dll
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.pdb
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\OnlineLearningPlatform.DAL.genruntimeconfig.cache
+D:\SOFTWARE ENGINEERING\Courses\Full Stack.net DEPI\Technical\OnlineCourse Managment system\OnlineLearningPlatform.DAL\obj\Debug\net8.0\ref\OnlineLearningPlatform.DAL.dll
