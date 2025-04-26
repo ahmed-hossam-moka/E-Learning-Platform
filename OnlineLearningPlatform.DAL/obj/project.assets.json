@@ -4080,28 +4080,29 @@
     "net8.0": [
       "Azure.Identity >= 1.8.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Express\\.nuget\\packages\\": {},
-    "D:\\Coding.net\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MOHAMED\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\depi project\\E-Learning-Platform\\OnlineLearningPlatform.DAL\\OnlineLearningPlatform.DAL.csproj",
+      "projectUniqueName": "D:\\SOFTWARE ENGINEERING\\Courses\\Full Stack.net DEPI\\Technical\\OnlineCourse Managment system\\OnlineLearningPlatform.DAL\\OnlineLearningPlatform.DAL.csproj",
       "projectName": "OnlineLearningPlatform.DAL",
-      "projectPath": "D:\\depi project\\E-Learning-Platform\\OnlineLearningPlatform.DAL\\OnlineLearningPlatform.DAL.csproj",
-      "packagesPath": "C:\\Users\\Express\\.nuget\\packages\\",
-      "outputPath": "D:\\depi project\\E-Learning-Platform\\OnlineLearningPlatform.DAL\\obj\\",
+      "projectPath": "D:\\SOFTWARE ENGINEERING\\Courses\\Full Stack.net DEPI\\Technical\\OnlineCourse Managment system\\OnlineLearningPlatform.DAL\\OnlineLearningPlatform.DAL.csproj",
+      "packagesPath": "C:\\Users\\MOHAMED\\.nuget\\packages\\",
+      "outputPath": "D:\\SOFTWARE ENGINEERING\\Courses\\Full Stack.net DEPI\\Technical\\OnlineCourse Managment system\\OnlineLearningPlatform.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Coding.net\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Express\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MOHAMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4128,7 +4129,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4139,6 +4140,12 @@
             "version": "[1.8.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
           },
@@ -4169,7 +4176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
