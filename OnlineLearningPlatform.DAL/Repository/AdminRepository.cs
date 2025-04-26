@@ -17,8 +17,8 @@ namespace OnlineLearningPlatform.DAL.Repository
         public IQueryable<Instructor> GetPendingInstructors()
         {
             return _context.Instructors
-                .Include(i => i.User)  // Eager load User data
-                .Where(i => !i.IsApproved);
+                .Include(i => i.User)  // Eager load  for related User data
+                .Where(i => !i.IsApproved); // Only unapproved instructors
         }
 
         public IQueryable<Course> GetPendingCourses()
