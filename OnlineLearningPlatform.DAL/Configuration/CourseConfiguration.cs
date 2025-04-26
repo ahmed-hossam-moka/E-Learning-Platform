@@ -9,15 +9,8 @@ namespace OnlineLearningPlatform.DAL.Configuration
     {
         public void Configure(EntityTypeBuilder<Course> builder)
         {
-            // Explicitly configure CourseId as an identity column
-            builder.Property(a => a.CourseId)
-                .HasColumnName("CourseId") // Explicit column name (optional)
-                .HasColumnType("int") // Ensure it's an integer type
-                .ValueGeneratedOnAdd(); // Auto-increment
-
             builder.HasKey(a => a.CourseId);
 
-            // Rest of your existing configuration...
             builder.Property(a => a.Title)
                 .IsRequired();
 
@@ -26,8 +19,8 @@ namespace OnlineLearningPlatform.DAL.Configuration
 
             builder.Property(a => a.Price)
                 .IsRequired()
-                .HasColumnType("decimal(18,2)")
-                .HasAnnotation("Range", new[] { 0, 15000 });
+                .HasColumnType("decimal(18,2)") // SQL Server money type
+                .HasAnnotation("Range", new[] { 0, 15000 }); // Validation range
 
             builder.Property(a => a.Status)
                 .IsRequired()
@@ -51,10 +44,10 @@ namespace OnlineLearningPlatform.DAL.Configuration
                 .HasForeignKey(a => a.InstructorId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasOne(c => c.Category)
-                    .WithMany(c => c.Courses)
-                    .HasForeignKey(c => c.CategoryId)
-                    .OnDelete(DeleteBehavior.SetNull);
+            builder.HasOne(a => a.Category)
+                .WithMany(a => a.Courses)
+                .HasForeignKey(a => a.CategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

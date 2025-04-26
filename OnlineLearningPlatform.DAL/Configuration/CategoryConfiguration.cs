@@ -17,11 +17,6 @@ namespace OnlineLearningPlatform.DAL.Configuration
             // Unique constraint for category name
             builder.HasIndex(a => a.Name)
                 .IsUnique();
-
-            builder.HasMany(c => c.Courses)
-            .WithOne(c => c.Category)
-            .HasForeignKey(c => c.CategoryId)
-            .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }
