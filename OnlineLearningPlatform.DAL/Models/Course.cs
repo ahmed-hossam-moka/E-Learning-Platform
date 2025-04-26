@@ -6,7 +6,8 @@ namespace OnlineLearningPlatform.DAL.Models
     {
         public int CourseId { get; set; }
         public int InstructorId { get; set; }
-        public int CategoryId { get; set; }
+        //public int CategoryId { get; set; }
+        public int? CategoryId { get; set; } // ?--> معناها انه nullable
         public string Title { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }

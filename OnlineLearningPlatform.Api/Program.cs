@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using OnlineLearningPlatform.BLL.Managers;
 using OnlineLearningPlatform.DAL.DataBase;
 using OnlineLearningPlatform.DAL.Repository;
@@ -19,12 +20,19 @@ namespace OnlineLearningPlatform.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            
             builder.Services.AddDbContext<PlatformContext>(option =>
-            {
+            { 
                 option.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
+
             builder.Services.AddScoped<IInstructorManager, InstructorManager>();
             builder.Services.AddScoped<IInstructorRepository, InstructorRepository>();
+            builder.Services.AddScoped<ICourseManager, CourseManager>();
+            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            builder.Services.AddScoped<ICategoryManager, CategoryManager>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 
             var app = builder.Build();
 

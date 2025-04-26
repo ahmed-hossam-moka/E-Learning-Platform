@@ -11,7 +11,10 @@ namespace OnlineLearningPlatform.DAL.DataBase
 {
     public class PlatformContext : DbContext
     {
-        public PlatformContext(DbContextOptions<PlatformContext> db) : base(db) { }
+        public PlatformContext(DbContextOptions<PlatformContext> options) : base(options)
+        { 
+            
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,0 +1,16 @@
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\bin\Debug\net8.0\OnlineLearningPlatform.BLL.deps.json
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\bin\Debug\net8.0\OnlineLearningPlatform.BLL.dll
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\bin\Debug\net8.0\OnlineLearningPlatform.BLL.pdb
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.dll
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\bin\Debug\net8.0\OnlineLearningPlatform.DAL.pdb
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.csproj.AssemblyReference.cache
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.AssemblyInfoInputs.cache
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.AssemblyInfo.cs
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.csproj.CoreCompileInputs.cache
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.sourcelink.json
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLe.A36E1CFA.Up2Date
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.dll
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\refint\OnlineLearningPlatform.BLL.dll
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\OnlineLearningPlatform.BLL.pdb
+D:\depi project\E-Learning-Platform\OnlineLearningPlatform.BLL\obj\Debug\net8.0\ref\OnlineLearningPlatform.BLL.dll
