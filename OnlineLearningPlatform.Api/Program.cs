@@ -31,7 +31,12 @@ namespace OnlineLearningPlatform.Api
 
             builder.Services.AddScoped<ILectureAttachmentManager, LectureAttachmentManager>();
             builder.Services.AddScoped<ILectureAttachmentRepository, LectureAttachmentRepository>();
-
+            
+            builder.Services.AddScoped<ICourseManager, CourseManager>();
+            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+            
+            builder.Services.AddScoped<ICategoryManager, CategoryManager>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 
 
