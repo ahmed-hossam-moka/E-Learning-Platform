@@ -1,7 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-﻿namespace OnlineLearningPlatform.DAL.Models
+namespace OnlineLearningPlatform.BLL.Dtos
 {
-    public class Enrollment
+    public class EnrollmentReadDto
     {
         public int EnrollmentId { get; set; }
         public int StudentId { get; set; }
@@ -10,11 +15,5 @@
         public DateTime EnrollmentDate { get; set; }
         public bool IsCompleted { get; set; }
         public DateTime? CompletedDate { get; set; }
-
-        // Navigation properties
-        public Student Student { get; set; }
-        public Course Course { get; set; }
-        public Payment Payment { get; set; }
-        public Earnings Earnings { get; set; }
     }
 }

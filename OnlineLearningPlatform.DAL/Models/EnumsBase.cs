@@ -26,7 +26,8 @@
         {
             Success,
             Failed,
-            Pending
+            Pending,
+            Completed
         }
 
         public enum EarningsStatus

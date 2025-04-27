@@ -109,6 +109,12 @@ namespace OnlineLearningPlatform.Api
 
 
 
+            builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
+            builder.Services.AddScoped<IPaymentManager, PaymentManager>();
+
+            builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
+            builder.Services.AddScoped<IEnrollmentManager, EnrollmentManager>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
