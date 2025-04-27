@@ -6,5 +6,7 @@
         public int LectureId { get; set; }
         public string FileUrl { get; set; }
         public Lecture Lecture { get; set; }
+       
+        //public int Id { get; internal set; }
     }
 }

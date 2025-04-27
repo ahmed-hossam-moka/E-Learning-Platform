@@ -1,3 +1,4 @@
+
 ﻿namespace OnlineLearningPlatform.DAL.Models
 {
     public class Enrollment
@@ -10,6 +11,7 @@
         public bool IsCompleted { get; set; }
         public DateTime? CompletedDate { get; set; }
 
+        // Navigation properties
         public Student Student { get; set; }
         public Course Course { get; set; }
         public Payment Payment { get; set; }

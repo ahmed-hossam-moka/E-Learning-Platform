@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AND8B+TspBGcdbkIV66o3ns1PAI/nZheptrXGDzoJ/w=",
+  "Source": "OnlineLearningPlatform.Api",
+  "BasePath": "_content/OnlineLearningPlatform.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
