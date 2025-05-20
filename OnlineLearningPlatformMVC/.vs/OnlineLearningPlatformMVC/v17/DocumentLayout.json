@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\E-Learning\\OnlineLearningPlatformMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\studentquiz\\takequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\studentquiz\\takequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\studentquiz\\quizresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\studentquiz\\quizresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\studentquiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\studentquiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\controllers\\studentquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\controllers\\studentquizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|e:\\e-learning\\onlinelearningplatformmvc\\onlinelearningplatformmvc\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F6A152-9ED3-4532-97B9-71E066707C35}|OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC.csproj|solutionrelative:onlinelearningplatformmvc\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TakeQuiz.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\TakeQuiz.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\TakeQuiz.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\TakeQuiz.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\TakeQuiz.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:46.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizResult.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\QuizResult.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\QuizResult.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\QuizResult.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\QuizResult.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:43.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Quiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\Quiz\\Index.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Quiz\\Index.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\Quiz\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:34.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Quiz\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\Quiz\\Create.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Quiz\\Create.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\Quiz\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:26.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\Index.cshtml",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Views\\StudentQuiz\\Index.cshtml",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Views\\StudentQuiz\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T16:19:05.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentQuizController.cs",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\StudentQuizController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Controllers\\StudentQuizController.cs",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\StudentQuizController.cs",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Controllers\\StudentQuizController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:18:56.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:18:55.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPlatformMVC\\Controllers\\QuizController.cs",
+              "ToolTip": "E:\\E-Learning\\OnlineLearningPlatformMVC\\OnlineLearningPlatformMVC\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "OnlineLearningPlatformMVC\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:15:24.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

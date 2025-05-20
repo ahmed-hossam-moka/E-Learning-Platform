@@ -1,0 +1,57 @@
+﻿
+@model InstructorReadVM
+
+@{
+    ViewData["Title"] = "Instructor";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4 bg-white rounded">
+        <h2 class="mb-4">@Model.Name Profile</h2>
+        <table class="table table-striped table-hover align-middle" style="font-size:1rem;">
+            <thead class="table-dark">
+                <tr>
+                    <th>Profile Picture</th>
+                    <th>Name</th>
+                    <th>Bio</th>
+                    <th>Approved</th>
+                    <th>Created At</th>
+                    <th>Last Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                    <tr>
+                        <td>
+                            <img src="~/images/@Model.ProfilePictureUrl" alt="Pic" class="rounded-circle" style="width:48px;height:48px;object-fit:cover;">
+                        </td>
+                    <td style="font-weight:bold;">@Model.Name</td>
+                    <td>@(Model.Bio?.Length > 40 ? Model.Bio.Substring(0, 40) + "..." : Model.Bio)</td>
+                        <td>
+                        @if (Model.IsApproved)
+                            {
+                                <span class="badge bg-success">Yes</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">No</span>
+                            }
+                        </td>
+                    <td>@Model.CreatedAt.ToString("yyyy/MM/dd HH:mm")</td>
+                    <td>@Model.UpdatedAt.ToString("yyyy/MM/dd HH:mm")</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #f6f9fc;
+    }
+
+    .card {
+        border: none;
+    }
+</style>

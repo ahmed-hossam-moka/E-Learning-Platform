@@ -1,0 +1,35 @@
+﻿@model List<OnlineLearningPlatform.MVC.Models.Quiz.QuizViewModel>
+@{
+    ViewData["Title"] = "Quizzes";
+    var courseId = ViewBag.CourseId;
+}
+
+<h2>Quizzes for Course</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Passing Score</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var quiz in Model)
+        {
+            <tr>
+                <td>@quiz.Title</td>
+                <td>@quiz.PassingScore</td>
+                <td>@quiz.CreatedAt.ToString("d")</td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@quiz.Id" asp-route-courseId="@courseId"
+                       class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this quiz?')">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

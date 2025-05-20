@@ -1,0 +1,32 @@
+﻿@model List<OnlineLearningPlatform.MVC.Models.Quiz.QuizViewModel>
+@{
+    ViewData["Title"] = "Quizzes";
+    var courseId = ViewBag.CourseId;
+}
+
+<h2>Available Quizzes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Passing Score</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var quiz in Model)
+        {
+            <tr>
+                <td>@quiz.Title</td>
+                <td>@quiz.PassingScore</td>
+                <td>@quiz.CreatedAt.ToString("d")</td>
+                <td>
+                    <a asp-action="TakeQuiz" asp-route-quizId="@quiz.Id" class="btn btn-primary">Take Quiz</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

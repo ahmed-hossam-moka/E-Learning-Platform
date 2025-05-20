@@ -1,0 +1,222 @@
+﻿@model FrontendMVC.Models.LoginVM
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <h2 class="login-title">Sign In</h2>
+            <p class="login-subtitle">Welcome back! Please enter your credentials</p>
+        </div>
+
+        <form asp-action="Login" method="post" class="login-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="form-label">Email Address</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </span>
+                    <input asp-for="Email" class="form-control" placeholder="your.email@example.com" />
+                </div>
+                <span asp-validation-for="Email" class="validation-message"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="password-label-row">
+                    <label asp-for="Password" class="form-label">Password</label>
+                </div>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </span>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="••••••••" />
+                </div>
+                <span asp-validation-for="Password" class="validation-message"></span>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="rememberMe" class="form-check-input" />
+                <label for="rememberMe" class="form-check-label">Remember me</label>
+            </div>
+
+            <button type="submit" class="btn-login">Sign In</button>
+
+            <div class="register-link">
+                Don't have an account? <a asp-action="Register" asp-controller="Account">Create one</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        padding: 2rem;
+        background-color: #f9fafb;
+    }
+
+    .login-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 450px;
+        padding: 2.5rem;
+    }
+
+    .login-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .login-title {
+        margin: 0;
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: #1a202c;
+    }
+
+    .login-subtitle {
+        margin-top: 0.5rem;
+        color: #718096;
+        font-size: 0.95rem;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 0.5rem;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: #4a5568;
+        font-size: 0.95rem;
+    }
+
+    .input-group {
+        position: relative;
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #a0aec0;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.75rem 1rem 0.75rem 2.75rem;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: all 0.2s ease;
+        background-color: #fff;
+    }
+
+        .form-control:focus {
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+            outline: none;
+        }
+
+    .password-label-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .forgot-password {
+        font-size: 0.85rem;
+        color: #4299e1;
+        text-decoration: none;
+    }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+    .form-check {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .form-check-input {
+        width: 1.1rem;
+        height: 1.1rem;
+        border-radius: 4px;
+        accent-color: #4299e1;
+    }
+
+    .form-check-label {
+        font-size: 0.95rem;
+        color: #4a5568;
+    }
+
+    .btn-login {
+        width: 100%;
+        padding: 0.85rem;
+        background-color: #4299e1;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        margin-top: 0.5rem;
+    }
+
+        .btn-login:hover {
+            background-color: #3182ce;
+        }
+
+    .validation-message {
+        display: block;
+        color: #e53e3e;
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+    }
+
+    .register-link {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 0.95rem;
+        color: #718096;
+    }
+
+        .register-link a {
+            color: #4299e1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+            .register-link a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

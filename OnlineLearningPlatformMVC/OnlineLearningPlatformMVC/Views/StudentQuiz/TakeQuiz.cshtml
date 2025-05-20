@@ -1,0 +1,40 @@
+﻿@model OnlineLearningPlatform.MVC.Models.Quiz.SubmitQuizViewModel
+@{
+    ViewData["Title"] = "Take Quiz";
+    var questions = ViewBag.Questions as List<OnlineLearningPlatform.MVC.Models.Quiz.QuestionViewModel>;
+}
+
+<h2>Quiz</h2>
+
+<form asp-action="SubmitQuiz" method="post">
+    <input type="hidden" asp-for="QuizId" />
+    <input type="hidden" asp-for="StudentId" value="8ef3e484-9df5-4e9e-accb-bba7d984ada0" ; />
+
+    @for (int i = 0; i < questions.Count; i++)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <h4>Question @(i + 1): @questions[i].Text</h4>
+            </div>
+            <div class="card-body">
+                <input type="hidden" asp-for="Answers[i].QuestionId" value="@questions[i].QuestionId" />
+
+                @foreach (var choice in questions[i].Choices)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio"
+                               asp-for="Answers[i].SelectedChoiceId" value="@choice.ChoiceId" id="choice-@choice.ChoiceId" />
+                        <label class="form-check-label" for="choice-@choice.ChoiceId">
+                            @choice.Text
+                        </label>
+                    </div>
+                }
+                <span asp-validation-for="Answers[i].SelectedChoiceId" class="text-danger"></span>
+            </div>
+        </div>
+    }
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+    </div>
+</form>

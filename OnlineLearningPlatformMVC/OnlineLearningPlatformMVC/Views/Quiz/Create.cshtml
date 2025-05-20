@@ -1,0 +1,66 @@
+﻿@model OnlineLearningPlatform.MVC.Models.Quiz.CreateQuizViewModel
+@{
+    ViewData["Title"] = "Create Quiz";
+}
+
+<h2>Create New Quiz</h2>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="CourseId" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PassingScore"></label>
+        <input asp-for="PassingScore" class="form-control" />
+        <span asp-validation-for="PassingScore" class="text-danger"></span>
+    </div>
+
+    <h3>Questions</h3>
+
+    @for (int i = 0; i < Model.Questions.Count; i++)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <h4>Question @(i + 1)</h4>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="Questions[i].Text"></label>
+                    <input asp-for="Questions[i].Text" class="form-control" />
+                    <span asp-validation-for="Questions[i].Text" class="text-danger"></span>
+                </div>
+
+                <h5>Choices</h5>
+
+                @for (int j = 0; j < Model.Questions[i].Choices.Count; j++)
+                {
+                    <div class="form-group form-check">
+                        <input type="checkbox" asp-for="Questions[i].Choices[j].IsCorrect" class="form-check-input" />
+                        <label class="form-check-label" asp-for="Questions[i].Choices[j].Text"></label>
+                        <input asp-for="Questions[i].Choices[j].Text" class="form-control" />
+                        <span asp-validation-for="Questions[i].Choices[j].Text" class="text-danger"></span>
+                    </div>
+                }
+
+                <button type="submit" name="questionIndex" value="@i" formaction="@Url.Action("AddChoice")"
+                        class="btn btn-secondary btn-sm">
+                    Add Choice
+                </button>
+            </div>
+        </div>
+    }
+
+    <button type="submit" formaction="@Url.Action("AddQuestion")" class="btn btn-primary mb-3">
+        Add Question
+    </button>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Create Quiz</button>
+        <a asp-action="Index" asp-route-courseId="@Model.CourseId" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

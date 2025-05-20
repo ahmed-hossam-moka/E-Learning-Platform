@@ -1,0 +1,302 @@
+﻿@model FrontendMVC.Models.RegisterVM
+
+<div class="register-container">
+    <div class="register-card">
+        <div class="register-header">
+            <h2 class="register-title">Create Account</h2>
+            <p class="register-subtitle">Please fill in your information to get started</p>
+        </div>
+
+        <form asp-action="Register" method="post" class="register-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="form-label">Full Name</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </span>
+                    <input asp-for="Name" class="form-control" placeholder="John Doe" />
+                </div>
+                <span asp-validation-for="Name" class="validation-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="form-label">Email Address</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </span>
+                    <input asp-for="Email" class="form-control" placeholder="your.email@example.com" />
+                </div>
+                <span asp-validation-for="Email" class="validation-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Role" class="form-label">Role</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </span>
+                    <input asp-for="Role" class="form-control" placeholder="User / Admin" />
+                </div>
+                <span asp-validation-for="Role" class="validation-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password" class="form-label">Password</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </span>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="••••••••" />
+                </div>
+                <span asp-validation-for="Password" class="validation-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                <div class="input-group">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </span>
+                    <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="••••••••" />
+                </div>
+                <span asp-validation-for="ConfirmPassword" class="validation-message"></span>
+            </div>
+
+            <button type="submit" class="btn-register">Create Account</button>
+
+            <div class="login-link">
+                Already have an account? <a asp-action="Login" asp-controller="Account">Sign in</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    /* Base styles */
+    :root {
+        --primary-color: #4299e1;
+        --primary-hover: #3182ce;
+        --text-dark: #1a202c;
+        --text-muted: #718096;
+        --text-light: #4a5568;
+        --border-color: #e2e8f0;
+        --bg-color: #f9fafb;
+        --error-color: #e53e3e;
+        --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Reset and base */
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Container */
+    .register-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 1rem;
+        background-color: var(--bg-color);
+    }
+
+    /* Card */
+    .register-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+        width: 100%;
+        max-width: 500px;
+        padding: 2rem;
+    }
+
+    /* Header */
+    .register-header {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .register-title {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-dark);
+    }
+
+    .register-subtitle {
+        margin-top: 0.5rem;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+    }
+
+    /* Form */
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.15rem;
+    }
+
+    .form-group {
+        margin-bottom: 0.25rem;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: var(--text-light);
+        font-size: 0.9rem;
+    }
+
+    .input-group {
+        position: relative;
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 0.75rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-muted);
+        display: flex;
+        align-items: center;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        font-size: 0.95rem;
+        transition: all 0.2s ease;
+        background-color: #fff;
+    }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+            outline: none;
+        }
+
+    /* Button */
+    .btn-register {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        margin-top: 0.5rem;
+    }
+
+        .btn-register:hover {
+            background-color: var(--primary-hover);
+        }
+
+    /* Validation */
+    .validation-message {
+        display: block;
+        color: var(--error-color);
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+    }
+
+    /* Login link */
+    .login-link {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+    }
+
+        .login-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+            .login-link a:hover {
+                text-decoration: underline;
+            }
+
+    /* Responsive adjustments */
+    /* media (max-width: 640px) { */
+    /*     .register-card */
+
+    /* { */
+    /*     padding: 1.5rem; */
+    /*     border-radius: 10px; */
+    /* } */
+
+    .register-title {
+        font-size: 1.35rem;
+    }
+
+    .register-form {
+        gap: 1rem;
+    }
+
+    .form-control {
+        padding: 0.7rem 0.7rem 0.7rem 2.25rem;
+        font-size: 0.9rem;
+    }
+
+    .input-icon {
+        left: 0.7rem;
+    }
+
+    .btn-register {
+        padding: 0.7rem;
+    }
+
+    }
+
+    /* media (max-width: 480px) { */
+    /*     .register-card */
+
+    /* { */
+    /*     padding: 1.25rem; */
+    /* } */
+
+    .register-form {
+        gap: 0.85rem;
+    }
+
+    .register-title {
+        font-size: 1.25rem;
+    }
+
+    .register-subtitle {
+        font-size: 0.85rem;
+    }
+
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\HaidyTasks\**" />
+    <Compile Remove="Controllers\MarwanTasks\**" />
+    <Compile Remove="Controllers\NourTasks\**" />
+    <Compile Remove="Controllers\SafaaTasks\**" />
+    <Compile Remove="Controllers\YoustinaTasks\**" />
+    <Content Remove="Controllers\HaidyTasks\**" />
+    <Content Remove="Controllers\MarwanTasks\**" />
+    <Content Remove="Controllers\NourTasks\**" />
+    <Content Remove="Controllers\SafaaTasks\**" />
+    <Content Remove="Controllers\YoustinaTasks\**" />
+    <EmbeddedResource Remove="Controllers\HaidyTasks\**" />
+    <EmbeddedResource Remove="Controllers\MarwanTasks\**" />
+    <EmbeddedResource Remove="Controllers\NourTasks\**" />
+    <EmbeddedResource Remove="Controllers\SafaaTasks\**" />
+    <EmbeddedResource Remove="Controllers\YoustinaTasks\**" />
+    <None Remove="Controllers\HaidyTasks\**" />
+    <None Remove="Controllers\MarwanTasks\**" />
+    <None Remove="Controllers\NourTasks\**" />
+    <None Remove="Controllers\SafaaTasks\**" />
+    <None Remove="Controllers\YoustinaTasks\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

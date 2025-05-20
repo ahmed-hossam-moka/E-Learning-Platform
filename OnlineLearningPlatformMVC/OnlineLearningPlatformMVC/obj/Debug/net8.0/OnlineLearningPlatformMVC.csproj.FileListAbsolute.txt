@@ -1,0 +1,106 @@
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.Development.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.runtime.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.endpoints.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.exe
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.deps.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.runtimeconfig.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfoInputs.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfo.cs
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.csproj.CoreCompileInputs.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cs
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\bundle\OnlineLearningPlatformMVC.styles.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\projectbundle\OnlineLearningPlatformMVC.bundle.scp.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\refint\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.genruntimeconfig.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-MVC\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\ref\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.Development.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.endpoints.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.runtime.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.exe
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.deps.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.runtimeconfig.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfoInputs.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfo.cs
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.csproj.CoreCompileInputs.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cs
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\bundle\OnlineLearningPlatformMVC.styles.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\projectbundle\OnlineLearningPlatformMVC.bundle.scp.css
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineLearningPlatformMVC.props
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\refint\OnlineLearningPlatformMVC.dll
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.genruntimeconfig.cache
+D:\.Net with Rouad Misr\Tecnical Sessions\E-Learning-Platform-Frontend\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\ref\OnlineLearningPlatformMVC.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.csproj.AssemblyReference.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfoInputs.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.AssemblyInfo.cs
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.csproj.CoreCompileInputs.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.MvcApplicationPartsAssemblyInfo.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.RazorAssemblyInfo.cs
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\refint\OnlineLearningPlatformMVC.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.Development.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\appsettings.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.endpoints.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.staticwebassets.runtime.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.exe
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.deps.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.runtimeconfig.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\OnlineLearningPlatformMVC.pdb
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\bundle\OnlineLearningPlatformMVC.styles.css
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\scopedcss\projectbundle\OnlineLearningPlatformMVC.bundle.scp.css
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.development.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssets.props
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.OnlineLearningPlatformMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineLearningPlatformMVC.props
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineLearningPlatformMVC.props
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineLearningPlatformMVC.props
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.pack.json
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLe.E2501602.Up2Date
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\OnlineLearningPlatformMVC.genruntimeconfig.cache
+E:\E-Learning\OnlineLearningPlatformMVC\OnlineLearningPlatformMVC\obj\Debug\net8.0\ref\OnlineLearningPlatformMVC.dll

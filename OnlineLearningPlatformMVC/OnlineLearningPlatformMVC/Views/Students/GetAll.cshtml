@@ -1,0 +1,46 @@
+﻿
+@model IEnumerable<StudentReadVM>
+
+@{
+    ViewData["Title"] = "Students List";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4 bg-white rounded">
+        <h2 class="mb-4">Instructors</h2>
+        <table class="table table-striped table-hover align-middle" style="font-size:1rem;">
+            <thead class="table-dark">
+                <tr>
+                    <th>Profile Picture</th>
+                    <th>Name</th>
+                    <th>Created At</th>
+                    <th>Last Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/images/@student.ProfilePictureUrl" alt="Pic" class="rounded-circle" style="width:48px;height:48px;object-fit:cover;">
+                        </td>
+                        <td style="font-weight:bold;">@student.Name</td>
+
+                        <td>@student.CreatedAt.ToString("yyyy/MM/dd HH:mm")</td>
+                        <td>@student.UpdatedAt.ToString("yyyy/MM/dd HH:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #f6f9fc;
+    }
+
+    .card {
+        border: none;
+    }
+</style>
