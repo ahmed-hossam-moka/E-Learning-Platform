@@ -16,6 +16,7 @@ namespace OnlineLearningPlatform.DAL.Repository
         public void Add(Course course);
         public void Update(Course course);
         public void Delete(Course course);
+        (IEnumerable<Course> items, int totalCount) GetPaginated(int pageNumber, int pageSize);
 
     }
 }

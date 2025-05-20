@@ -54,5 +54,18 @@ namespace OnlineLearningPlatform.Api.Controllers
             _courseManager.Delete(Id);
             return NoContent();
         }
+        [HttpGet("paginated")]
+        public ActionResult GetPaginated([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
+        {
+            if (pageNumber < 1 || pageSize < 1)
+                return BadRequest("Page number and page size must be greater than 0");
+
+            var pagedResponse = _courseManager.GetPaginated(pageNumber, pageSize);
+
+            if (pagedResponse == null || !pagedResponse.Data.Any())
+                return NotFound("No courses found for the specified page");
+
+            return Ok(pagedResponse);
+        }
     }
 }
