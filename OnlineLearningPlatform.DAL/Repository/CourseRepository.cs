@@ -52,5 +52,21 @@ namespace OnlineLearningPlatform.DAL.Repository
             _context.SaveChanges();
 
         }
+        public (IEnumerable<Course> items, int totalCount) GetPaginated(int pageNumber, int pageSize)
+        {
+            var query = _context.Courses
+                .Include(c => c.Instructor)
+                .Include(c => c.Category);
+
+            // Get total count of ALL matching records
+            var totalCount = query.Count();
+
+            var items = query
+                .Skip((pageNumber - 1) * pageSize)  // Jump to correct page
+                .Take(pageSize)                     // Take only the page size
+                .ToList();
+
+            return (items, totalCount);
+        }
     }
 }

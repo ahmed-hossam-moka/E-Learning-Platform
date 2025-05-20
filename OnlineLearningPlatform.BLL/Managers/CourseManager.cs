@@ -101,5 +101,31 @@ namespace OnlineLearningPlatform.BLL.Managers
             var courseModel = _courseRepository.GetById(Id);
             _courseRepository.Delete(courseModel);
         }
+
+        public PagedResponseDto<IEnumerable<CourseReadDto>> GetPaginated(int pageNumber, int pageSize)
+        {
+            var (courseModels, totalCount) = _courseRepository.GetPaginated(pageNumber, pageSize);
+
+            var courseDtos = courseModels.Select(a => new CourseReadDto
+            {
+                CourseId = a.CourseId,
+                Title = a.Title,
+                Description = a.Description,
+                Price = a.Price,
+                ImageUrl = a.ImageUrl,
+                Status = a.Status,
+                IsApproved = a.IsApproved,
+                CreatedAt = a.CreatedAt,
+                UpdatedAt = a.UpdatedAt,
+                InstructorName = a.Instructor?.Name,
+                CategoryName = a.Category?.Name
+            }).ToList();
+
+            return new PagedResponseDto<IEnumerable<CourseReadDto>>(
+                courseDtos,
+                pageNumber,
+                pageSize,
+                totalCount);
+        }
     }
 }

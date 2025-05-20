@@ -15,5 +15,6 @@ namespace OnlineLearningPlatform.BLL.Managers
         public void Add(CourseAddDto course);
         public void Update(CourseUpdateDto course);
         public void Delete(int Id);
+        PagedResponseDto<IEnumerable<CourseReadDto>> GetPaginated(int pageNumber, int pageSize);
     }
 }
