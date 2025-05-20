@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OnlineLearningPlatform.DAL.Configuration;
 using OnlineLearningPlatform.DAL.Models;
@@ -6,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +15,13 @@ namespace OnlineLearningPlatform.DAL.DataBase
 {
     public class PlatformContext : IdentityDbContext<ApplicationUser> 
     {
-        public PlatformContext(DbContextOptions<PlatformContext> db) : base(db) { }
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public PlatformContext(DbContextOptions<PlatformContext> db, IHttpContextAccessor httpContextAccessor)
+            : base(db)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -58,29 +66,106 @@ namespace OnlineLearningPlatform.DAL.DataBase
         {
             builder.Entity<T>().HasQueryFilter(e => !e.IsDeleted);
         }
+
         public override int SaveChanges()
         {
-            HandleSoftDelete();
+            // Handle BaseEntity tracking
+            var baseEntityEntries = ChangeTracker.Entries()
+                .Where(e => e.Entity is BaseEntity && !(e.Entity is ISoftDeletable) && e.State != EntityState.Unchanged);
+
+            var currentUserId = GetCurrentUserId();
+
+            foreach (var entry in baseEntityEntries)
+            {
+                var entity = (BaseEntity)entry.Entity;
+
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entity.CreatedAt = DateTime.UtcNow;
+                        entity.CreatedBy = currentUserId;
+                        entity.DeletedBy = currentUserId;
+                        break;
+
+                    case EntityState.Modified:
+                        entity.UpdatedAt = DateTime.UtcNow;
+                        entity.UpdatedBy = currentUserId;
+                        break;
+                }
+            }
+
+            // Handle ISoftDeletable entities
+            var softDeleteEntries = ChangeTracker.Entries()
+                .Where(e => e.Entity is ISoftDeletable && e.State == EntityState.Deleted);
+
+            foreach (var entry in softDeleteEntries)
+            {
+                var entity = (ISoftDeletable)entry.Entity;
+                entry.State = EntityState.Modified;
+                entity.IsDeleted = true;
+
+                if (entity is BaseEntity baseEntity)
+                {
+                    baseEntity.DeletedAt = DateTime.UtcNow;
+                    baseEntity.DeletedBy = currentUserId;
+                }
+            }
+
             return base.SaveChanges();
         }
+
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            HandleSoftDelete();
+            // Handle BaseEntity tracking
+            var baseEntityEntries = ChangeTracker.Entries()
+                .Where(e => e.Entity is BaseEntity && !(e.Entity is ISoftDeletable) && e.State != EntityState.Unchanged);
+
+            var currentUserId = GetCurrentUserId();
+
+            foreach (var entry in baseEntityEntries)
+            {
+                var entity = (BaseEntity)entry.Entity;
+
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entity.CreatedAt = DateTime.UtcNow;
+                        entity.CreatedBy = currentUserId;
+                        entity.DeletedBy = currentUserId;
+                        break;
+
+                    case EntityState.Modified:
+                        entity.UpdatedAt = DateTime.UtcNow;
+                        entity.UpdatedBy = currentUserId;
+                        break;
+                }
+            }
+
+            // Handle ISoftDeletable entities
+            var softDeleteEntries = ChangeTracker.Entries()
+                .Where(e => e.Entity is ISoftDeletable && e.State == EntityState.Deleted);
+
+            foreach (var entry in softDeleteEntries)
+            {
+                var entity = (ISoftDeletable)entry.Entity;
+                entry.State = EntityState.Modified;
+                entity.IsDeleted = true;
+
+                if (entity is BaseEntity baseEntity)
+                {
+                    baseEntity.DeletedAt = DateTime.UtcNow;
+                    baseEntity.DeletedBy = currentUserId;
+                }
+            }
+
             return await base.SaveChangesAsync(cancellationToken);
         }
 
-        public void HandleSoftDelete()
+        private string GetCurrentUserId()
         {
-            foreach (var entry in ChangeTracker.Entries()
-                .Where(e => e.State == EntityState.Deleted && e.Entity is ISoftDeletable))
-            {
-                entry.State = EntityState.Modified;
-                ((ISoftDeletable)entry.Entity).IsDeleted = true;
-            }
-
+            var userId = _httpContextAccessor?.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            return userId ?? "System";
         }
-
-
 
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Student> Students { get; set; }

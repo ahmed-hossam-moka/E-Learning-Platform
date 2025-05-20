@@ -3,7 +3,7 @@ using static OnlineLearningPlatform.DAL.Models.EnumsBase;
 
 namespace OnlineLearningPlatform.DAL.Models
 {
-    public class Admin : ISoftDeletable
+    public class Admin :BaseEntity
     {
         public string UserId { get; set; }
 
@@ -12,9 +12,7 @@ namespace OnlineLearningPlatform.DAL.Models
 
         public string Name { get; set; }
         public string? ProfilePictureUrl { get; set; }
-        public bool IsDeleted { get; set; }
-
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        //public DateTime CreatedAt { get; set; }
+        //public DateTime UpdatedAt { get; set; }
     }
 }

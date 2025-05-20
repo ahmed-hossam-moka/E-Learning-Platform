@@ -2,7 +2,7 @@
 
 namespace OnlineLearningPlatform.DAL.Models
 {
-    public class Course : ISoftDeletable
+    public class Course :BaseEntity
     {
         public int CourseId { get; set; }
         public string InstructorId { get; set; }
@@ -13,10 +13,8 @@ namespace OnlineLearningPlatform.DAL.Models
         public string ImageUrl { get; set; }
         public CourseStatus Status { get; set; }
         public bool IsApproved { get; set; }
-        public bool IsDeleted { get; set; }
-
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        //public DateTime CreatedAt { get; set; }
+        //public DateTime UpdatedAt { get; set; }
         public Instructor Instructor { get; set; }
         public Category Category { get; set; }
         public ICollection<Lecture> Lectures { get; set; }

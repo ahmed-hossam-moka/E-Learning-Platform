@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OnlineLearningPlatform.DAL.Models
 {
-    public class Student : ISoftDeletable
+    public class Student :BaseEntity
     {
         [Key]
         public string UserId { get; set; }
@@ -14,10 +14,8 @@ namespace OnlineLearningPlatform.DAL.Models
 
         public string Name { get; set; }
         public string? ProfilePictureUrl { get; set; }
-        public bool IsDeleted { get; set; }
-
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        //public DateTime CreatedAt { get; set; }
+        //public DateTime UpdatedAt { get; set; }
 
         public ICollection<Enrollment>? Enrollments { get; set; }
         public ICollection<Cart>? CartItems { get; set; }

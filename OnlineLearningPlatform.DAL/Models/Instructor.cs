@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace OnlineLearningPlatform.DAL.Models
 {
-    public class Instructor : ISoftDeletable
+    public class Instructor :BaseEntity
     {
 
         [Key]
@@ -17,10 +17,8 @@ namespace OnlineLearningPlatform.DAL.Models
         public string? ProfilePictureUrl { get; set; }
         public string? Bio { get; set; }
         public bool IsApproved { get; set; }
-        public bool IsDeleted { get; set; }
-
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        //public DateTime CreatedAt { get; set; }
+        //public DateTime UpdatedAt { get; set; }
 
         public ICollection<Course>? Courses { get; set; }
         public ICollection<Announcement>? Announcements { get; set; }
