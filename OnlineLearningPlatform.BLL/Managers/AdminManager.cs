@@ -1,5 +1,13 @@
 ﻿using OnlineLearningPlatform.BLL.Dtos.Admin;
 using OnlineLearningPlatform.DAL.Repository;
+using OnlineLearningPlatform.BLL.Dtos;
+using OnlineLearningPlatform.DAL.Models;
+using OnlineLearningPlatform.DAL.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace OnlineLearningPlatform.BLL.Managers
 {
